@@ -5,15 +5,15 @@ body, header {
 header{
   color: whitesmoke;
   text-align: center;
-  font-size: x-large;
+  font-size: xx-large;
   font-weight: bold;
-  font-family: Times;
-  padding-bottom: 15px
+  font-family: Arial;
+  padding-bottom: 15px;
 }
 
 #imgDalek {
-  height:20%;
-  width: 20%;
+  height:25%;
+  width: 25%;
   display: block;
   margin:auto;
 }
@@ -21,5 +21,24 @@ header{
 #subtitle{
   color:white;
   text-align: center;
+  padding: 20px;
+}
+
+#mic{
+  text-align: center;
+  display: block;
+  border-radius: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 30px;
+  align-content: center;
+  /*! background-color: #034fa7; */
   padding: 10px;
+  font-size: 30px
+}
+
+footer p{
+  color:white;
+  margin-top:0.3em;
+  font-size: small
 }
